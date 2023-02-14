@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 300px;
+  margin-bottom: 20px;
+  padding: 20px 10px;
+  align-items: center;
+  margin: 10px;
+
+  p {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .buttonsContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin-top: 15px;
+
+    .link {
+      color: inherit;
+      text-decoration: inherit;
+    }
+
+    button {
+      cursor: pointer;
+    }
+  }
+}
